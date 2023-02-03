@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+width: 100%;
+height: 80px;
+box-shadow: 2px 2px 5px grey;
+display: flex;
+justify-content: center;
+border: 2px solid gainsboro;
+}
+
+#nav>article{
+height: 80px;
+width: 99%;
+/* border: 2px solid black; */
+display: flex;
+}
+
+#nav>article>.logo{
+    height: 80px;
+    width: 9%;
+    display: flex;
+    align-items: center;
+}
+
+#nav>article>.logo>img{
+    height: 60px;
+    width: 110px;
+}
+
+#nav>article>.menu{
+    height: 80px;
+    width: 50%;
+    /* background-color: red; */
+}
+
+#nav>article>.menu>ol{
+height: 100%;
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+align-items: center;
+}
+
+#nav>article>.menu>ol>li>a{
+    text-decoration: none;
+    color: rgb(40,44, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight:bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#nav>article>.search{
+    height: 80px;
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:blue; */
+}
+#nav>article>.search>div>input{
+    border: none;
+    width: 80%;
+    background-color: rgb(245, 245, 246);
+}
+#nav>article>.search>div>input>:focus
+{
+    outline: none;
+}
+#nav>article>.search>div
+{
+    height: 40%;
+    width: 90%;
+    background-color: rgb(245, 245, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav>article>.search>div>i{
+    color: rgb(163,163, 163);
+    padding: 15px;
+    font-size: 13px;
+}
+
+#nav>article>.icon{
+    height: 80px;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: green; */
+}
+#nav>article>.icon>div{
+    text-align: center;
+}
+#nav>article>.icon>div>p{
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(53,53,53);
+    margin-top: 3px;
+}
+sup{
+    font-weight: bolder;
+    color: rgb(255,63,108);
+}
+/* --------------------navbar--------------- */
+#headingimage{
+    height: 130px;
+    width:100%;
+background-color: rgb(182, 195, 195);
+}
+#headingimage>a{
+    height: 100%;
+    width: 100%;
+}
+#headingimage>a>img{
+    height: 100%;
+    width: 100%;
+}
+ #imgsection1{
+    height: 170px;
+    width: 100%;
+    display: flex;
+ }
+ #imgsection1>img{
+    height:170px ;
+    width: 10%;
+ }
+ #imgsection2{
+    height: 170px;
+    width: 100%;
+    display: flex;
+ }
+ #imgsection2>img{
+    height:170px ;
+    width: 10%;
+ } 
+
+ /* -----------headingimg2-------------- */
+ #headingimage2{
+    height: 130px;
+    width:100%;
+background-color: rgb(182, 195, 195);
+}
+ #headingimage2>a{
+    height: 100%;
+    width: 100%;
+}
+#headingimage2>a>img{
+    height: 100%;
+    width: 100%;
+}
+/* -----------headingimg3------------ */
+#headingimage3{
+    height: 130px;
+    width:100%;
+background-color: rgb(182, 195, 195);
+}
+#headingimage3>a{
+    height: 100%;
+    width: 100%;
+}
+#headingimage3>a>img{
+    height: 100%;
+    width: 100%;
+}
+/* ----------------headingimg4------------------ */
+#headingimage4{
+    height: 130px;
+    width:100%;
+background-color: rgb(182, 195, 195);
+}
+#headingimage4>a{
+    height: 100%;
+    width: 100%;
+}
+#headingimage4>a>img{
+    height: 100%;
+    width: 100%;
+}
+
+/* -------------headingimg2------------ */
+#footer{
+    width: 100%;
+    height: 500px;
+    /* border:2px solid red; */
+    color: rgb(123, 112, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 234, 234);
+}
+#footer>article{
+    height: 80%;
+    width: 85%;
+    display: flex;
+}
+#footer>article>.onlineshop{
+    height: 100%;
+    width: 15%;
+    /* background-color: blueviolet; */
+}
+#footer>article>.onlineshop>ol{
+   list-style-type: none;
+    line-height: 25px;
+}
+
+#footer>article>.onlineshop>ol>li>a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105,107,102 );
+}
+#footer>article>.onlineshop>.list2{
+    margin-top: 20px;
+}
+.a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 20px ;
+}
+.b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 13px ;
+}
+#footer>article>.customerpolicy{
+    height: 100%;
+    width: 15%;
+    /* background-color: pink; */
+}
+#footer>article>.customerpolicy>ol{
+    list-style-type: none;
+     line-height: 25px;
+ }
+ #footer>article>.customerpolicy>ol>li>a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105,107,102 );
+}
+#footer>article>.Exp{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(202, 6, 38); */
+}
+#footer>article>.Exp>ol{
+    list-style-type: none;
+     line-height: 25px;
+ }
+ #footer>article>.Exp>ol>li>a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105,107,102 );
+}
+#footer>article>.original{
+    height: 100%;
+    width:40%;
+    padding-left: 50px;
+   
+}
+#footer>article>.original>ol{
+    list-style-type: none;
+     line-height: 25px;
+ }
+ #footer>article>.original>ol>li>a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105,107,102 );
+}
+
+img{
+    width: 150px;
+}
+.xy{
+    font-size:25px;
+    color: black;
+}
+.ab{
+    width: 60px;
+    height: 60px;
+}
+
+#imgsection3{
+    height: 170px;
+    width: 124%;
+    display: flex;
+ }
+ #imgsection3>img{
+    height:170px ;
+    width: 10%;
+ }
+ #imgsection4{
+    height: 170px;
+    width: 124%;
+    display: flex;
+ }
+ #imgsection4>img{
+    height:170px ;
+    width: 10%;
+ } 
+ #imgsection5{
+    height: 170px;
+    width: 100%;
+    display: flex;
+     justify-content: center;
+ }
+ 
+ #imgsection6{
+    height: 170px;
+    width: 100%;
+    display: flex;
+     justify-content: center;
+ }
+ #imgsection7{
+    height: 170px;
+    width: 100%;
+    display: flex;
+     justify-content: center;
+ }
+#imgsection8{
+    height: 170px;
+    width: 100%;
+    display: flex;
+     justify-content: center;
+ }
+ #imgsection9{
+    height: 170px;
+    width: 100%;
+    display: flex;
+     justify-content: center;
+ }
+ #imgsection10{
+    height: 170px;
+    width: 150%;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+  #imgsection10>img{
+    width: 100px;
+    height: 150px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: left;
+  }
